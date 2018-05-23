@@ -1,12 +1,11 @@
-body{background-color: lightgrey}
+body{background-color: lightgrey; background-attachment: initial;
+}
 
-h1{
-			color: red;
-		}
-		h2{
-			color: green; font-size: 50px;
-		}
-
-		#blablub{font-size: 80px}
-		.small{font-size: 20px; color: darkorange;}
-		h2 span{font-style: italic;}
+h1{color: red;
+}
+h2{color: green; font-size: 50px;
+}
+#testspan{font-size: 40px}
+#blablub{font-size: 80px}
+.small{font-size: 20px; color: darkorange;}
+h2 span{font-style: italic;}

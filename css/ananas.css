@@ -1,0 +1,67 @@
+html, body{
+	margin: 0; background-color: lightgrey;
+}
+header{   
+	background-color: #355384;
+	background-image: linear-gradient(#1b2b44, #6a8cc5);
+	padding: 20px;
+	text-align: center;
+}
+h1{	
+	max-height: 105px;
+	margin: 0;
+	font-size: 90px;
+	font-family: Jazz LET, fantasy;
+	text-shadow: 0 10px 20px black;
+	color: #cacaca;
+}
+header img{
+	margin: 0 0 20px 0;
+}	
+
+.content{	
+	max-width: 100%;
+	text-align: center;
+}
+div ol{
+	list-style: none;
+    padding: 0px;
+    margin: 20px auto 40px;
+    max-width: 600px;
+}
+li{
+	margin: 5px auto;
+    padding: 5px;
+    max-width: 600px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    max-height: 18px;
+}
+#apples{ 
+	background-image: url('../images/apple.png');
+ 	background-size: 30px 30px; background-repeat: repeat-x;
+}
+li img{ max-width: 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.big-image{
+	max-width: 100%;
+	padding: 20px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.caption{
+	text-align: left;
+	padding-left: 20px;
+	color: #848484;
+	margin-top: 5px;
+}
+footer{
+	text-align: center;
+    background-color: #989898;
+    color: #353535;
+    padding: 10px;
+}
